@@ -6,16 +6,6 @@ Document
 */
 
 /**
-Use a better box model (opinionated).
-*/
-
-*,
-::before,
-::after {
-    box-sizing: border-box;
-}
-
-/**
 1. Correct the line height in all browsers.
 2. Prevent adjustments of font size after orientation changes in iOS.
 3. Use a more readable tab size (opinionated).
@@ -29,8 +19,24 @@ html {
     -moz-tab-size: 4;
     /* 3 */
     tab-size: 4;
-    /* 3 */
+    /* 4 */
+    box-sizing: border-box;
 }
+
+/**
+Use a better box model (opinionated).
+*/
+
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
 
 /*
 Sections

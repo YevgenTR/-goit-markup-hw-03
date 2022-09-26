@@ -18,6 +18,32 @@
     --black-logo-color: #000000;
 }
 
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    tab-size: 4;
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     background-color: var(--main-background-color);
@@ -26,8 +52,24 @@ body {
     
 }
 
+/* Container */
+.container {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
 
 /* Section */
+
+.border {
+    outline: 2px solid tomato;
+    background-color: yellow;
+}
+
+/* .section {
+    outline: 2px solid tomato;
+} */
 
 .list {
     list-style: none;
@@ -42,6 +84,10 @@ body {
     letter-spacing: 0.03em;
 }
 
+/* .header {
+    display: flex;
+
+} */
 
 /* Logo */
 .logo {
@@ -75,7 +121,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    
+
 }
 
 .site-nav .link:hover,
@@ -91,7 +137,6 @@ body {
 
 
 /* hero */
-
 .hero {
     background-color: var(--hero-backgroun-color);
 }
@@ -103,6 +148,11 @@ body {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    max-width: 696px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .hero .button {
@@ -111,6 +161,13 @@ body {
     font-family: inherit;
     border-radius: 4px;
     cursor: pointer;
+    justify-content: center;
+}
+
+.button-text {
+    padding: 10px 32px;
+    display: block;
+    
 }
 
 /* features */
@@ -132,6 +189,11 @@ body {
 }
 
 /* team */
+.team {
+    background-color: var(--gray-color-100);
+    border: 2px solid green;
+}
+
 .team-member {
     font-weight: 500;
     font-size: 16px;
