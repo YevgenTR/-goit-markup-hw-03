@@ -403,6 +403,10 @@ p {
   flex-wrap: wrap;
 }
 
+.portfolio-img {
+  display: block;
+}
+
 .portfolio-name {
   margin-bottom: 4px;
 
@@ -424,10 +428,6 @@ p {
 .portfolio-name,
 .portolio-text {
   text-decoration: none;
-}
-
-.portfolio-img {
-  display: block;
 }
 
 /* footer */
