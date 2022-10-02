@@ -371,16 +371,8 @@ p {
 
 /* Портфоліо */
 
-.portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .portfolio .card {
   display: block;
-  /* border: 1px solid #eeeeee; */
-  /* width: 370px; */
-
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -398,6 +390,10 @@ p {
 }
 
 .portfolio .box {
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
   border: 1px solid #eeeeee;
   border-top: none;
 }
@@ -408,6 +404,8 @@ p {
 }
 
 .portfolio-name {
+  margin-bottom: 4px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -430,14 +428,6 @@ p {
 
 .portfolio .box {
   /* display: block; */
-  padding-top: 20px;
-  padding-right: 24px;
-  padding-bottom: 20px;
-  padding-left: 24px;
-}
-
-.portfolio-name {
-  margin-bottom: 4px;
 }
 
 .portfolio-img {
